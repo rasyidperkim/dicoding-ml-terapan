@@ -88,7 +88,7 @@ Pada tahap ini dilakukan analisis data eksploratif untuk memahami karakteristik 
 
 Hubungan antara variabel dengan sebagian variabel yang lain dapat dilihat pada Gambar 1 berikut :
 
-
+![multivariat](https://github.com/rasyidperkim/dicoding-ml-terapan/assets/63061466/2a02d769-cb51-40dc-b5f5-b42ab27e767d)
 
 ​										Gambar 1. *Hubungan antara variabel*
 
@@ -172,7 +172,7 @@ Dalam membuat sistem rekomendasi berdasarkan kesamaan karakteristik *item* mengg
 
 *Content-Based Filtering* (CBF) adalah salah satu metode sistem rekomendasi yang menggunakan informasi atau konten dari item (misalnya, genre film, genre buku, jenis produk, atau tempat wisata) yang akan direkomendasikan untuk menentukan kesesuaian atau relevansi dengan preferensi pengguna. Cara kerja CBF dapat dilihat pada Gambar 2 di bawah ini.
 
-![content base filtering](C:\Users\Laptop Q\Music\submission 2\content base filtering.svg)
+![content base filtering](https://github.com/rasyidperkim/dicoding-ml-terapan/assets/63061466/2b1e942e-87d1-4b55-aa9a-9ee7286542d8)
 
 ​											Gambar 2 *Alur Proses Model Rekomendasi CBF*
 
@@ -265,7 +265,7 @@ Hasil *Top-5 Recommendations* antara dua metode berbeda, hal ini karena *Similar
 
 *Collaborative Filtering* (CF) adalah metode dalam sistem rekomendasi yang menggunakan informasi dari pengguna lain untuk memberikan rekomendasi kepada pengguna. Metode ini mencari pola dan hubungan antara preferensi pengguna secara kolektif untuk membuat rekomendasi yang sesuai [[5\]](https://ieeexplore.ieee.org/abstract/document/10054282). Cara kerja CF dapat dilihat pada Gambar 3.
 
-![collaborative filtering](C:\Users\Laptop Q\Music\submission 2\collaborative filtering.svg)
+![collaborative filtering](https://github.com/rasyidperkim/dicoding-ml-terapan/assets/63061466/d01237a2-77d9-4f76-88f9-88c5d6a98ad5)
 
 ​															Gambar 3. *Alur Proses Model CF*
 
@@ -339,12 +339,13 @@ Dimana :
 - ŷi = *Predicted Value* / Nilai Prediksi dari data ke-i
 
 Hasil dari evaluasi MAE dapat dilihat pada Gambar 4 berikut :
+![mae](https://github.com/rasyidperkim/dicoding-ml-terapan/assets/63061466/1e6b9566-c42b-4e87-87dd-ba719cc6a92d)
 
 Gambar 4 *Evaluasi Model Dengan MAE*
 
 Berdasarkan Gambar 4 diketahui model memiliki nilai *Mean Absolute Error* (MAE) yang relatif rendah pada data training sebesar 0.03 dan data validasi sebesar 0.12. Untuk sistem rekomendasi nilai tersebut sudah cukup bagus.
 
-
+![rmse](https://github.com/rasyidperkim/dicoding-ml-terapan/assets/63061466/efc577dc-406b-4bcd-8c1d-779e587cbd62)
 
 Gambar 5 *Evaluasi Model Dengan RMSE*
 
